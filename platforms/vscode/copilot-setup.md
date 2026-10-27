@@ -1,7 +1,7 @@
 # Configuração do GitHub Copilot
 
 ## Fonte de verdade
-- Perfil sugerido: `agents/reviewers/independent-reviewer.md` para revisão independente; `agents/engineering/senior-developer.md` se usado para implementação.
+- Perfis sugeridos: `agents/business/marketing-analyst.md`, `agents/legal/legal-analyst.md`, `agents/finance/accounting-analyst.md`, `agents/engineering/senior-developer.md` e `agents/executive/cto.md`, conforme a demanda.
 - Instruções comuns: `agents/shared/common-instructions.md`
 - Governança: arquivos de `governance/`
 - Contexto: `projects/<projeto>/`

@@ -5,14 +5,14 @@ Repositório de instruções, papéis e fluxos de trabalho para uma equipe de ag
 ## Como usar
 
 1. Leia as políticas em `governance/` antes de delegar trabalho. Elas definem princípios, tomada de decisão, segurança e limites de aprovação.
-2. Escolha o agente adequado em `agents/` e forneça o contexto do produto, as restrições e o resultado esperado.
+2. Escolha o agente adequado em `agents/` e forneça o contexto do produto, as restrições e o resultado esperado. Isso inclui perfis especializados em marketing, jurídico e contábil quando a demanda exigir esses domínios.
 3. Siga o fluxo correspondente em `workflows/`. Registre decisões relevantes e critérios verificáveis nos documentos do projeto.
 4. Revise os resultados. Agentes podem analisar, recomendar e preparar mudanças, mas não substituem a autoridade humana definida pelas políticas.
 5. Adapte as instruções da plataforma em `platforms/` sem enfraquecer as políticas de governança.
 
 ## Estrutura
 
-- `agents/`: instruções e responsabilidades dos agentes executivos, de arquitetura, engenharia e revisão.
+- `agents/`: instruções e responsabilidades dos agentes executivos, de arquitetura, engenharia, negócios, jurídico, contábil e revisão.
 - `governance/`: princípios comuns, política de decisão, segurança e aprovação humana.
 - `workflows/`: processos reutilizáveis para novos projetos, implementação e revisões.
 - `platforms/`: instruções de configuração para ambientes e ferramentas de IA específicos.

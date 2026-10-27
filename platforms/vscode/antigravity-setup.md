@@ -1,7 +1,7 @@
 # Configuração do Antigravity
 
 ## Fonte de verdade
-- Perfil sugerido: `agents/engineering/senior-developer.md`
+- Perfis sugeridos: `agents/business/marketing-analyst.md`, `agents/legal/legal-analyst.md`, `agents/finance/accounting-analyst.md` e `agents/engineering/senior-developer.md`, conforme a demanda.
 - Instruções comuns: `agents/shared/common-instructions.md`
 - Governança: arquivos de `governance/`
 - Contexto: `projects/<projeto>/`

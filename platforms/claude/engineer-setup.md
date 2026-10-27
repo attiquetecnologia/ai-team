@@ -2,6 +2,7 @@
 
 ## Fonte de verdade
 - Perfil: `agents/engineering/software-engineer.md`
+- Perfis especialistas: `agents/business/marketing-analyst.md`, `agents/legal/legal-analyst.md` e `agents/finance/accounting-analyst.md` quando a tarefa exigir análise fora do escopo técnico.
 - Instruções comuns: `agents/shared/common-instructions.md`
 - Governança: arquivos de `governance/`
 - Contexto: documentos do projeto ativo em `projects/<projeto>/`
