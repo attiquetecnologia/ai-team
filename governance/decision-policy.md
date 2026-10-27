@@ -82,6 +82,26 @@ Compete ao executor:
 - Executar as validações autorizadas.
 - Relatar alterações realizadas, resultados dos testes, falhas e limitações conhecidas.
 
+### 3.6. Estrategista de Negócios e CTO
+
+O Estrategista de Negócios atua como proponente ou consultor de decisões empresariais, com foco em contexto, problemas, oportunidades, proposta de valor, segmentos, riscos comerciais, modelo de negócio e critérios de sucesso.
+
+O CTO atua como responsável por análises e recomendações técnicas, com foco em viabilidade, arquitetura, padrão, segurança, custos técnicos, dependências, riscos operacionais e alternativas de implementação.
+
+Essas funções são complementares e não substituem uma à outra. Quando uma decisão relevante aprovar ou alterar objetivos, investimento, receita, risco comercial ou dependências críticas, o Estrategista deve contribuir; quando ela afetar arquitetura, tecnologia, operação, segurança ou engenharia, o CTO deve contribuir.
+
+### 3.7. Especialistas funcionais
+
+Marketing, jurídico e contábil/financeiro atuam como consultores especializados dentro de seus domínios. Eles não substituem a autoridade do responsável pela decisão, nem assumem aprovação formal fora do escopo da função de consultoria.
+
+- Marketing: público, posicionamento, aquisição, demanda, concorrência e experimentos de crescimento.
+- Jurídico: risco legal, contratos, dados pessoais, propriedade intelectual e obrigações regulatórias.
+- Contábil e Financeiro: custos, margens, fluxo de caixa, liquidez, orçamento e viabilidade econômico-financeira.
+
+### 3.8. Revisor Independente
+
+O Revisor Independente deve avaliar criticamente a proposta, sem presumir que a recomendação do proponente está correta. O parecer do revisor não substitui a aprovação do responsável autorizado e deve ser registrado quando a decisão exigir revisão independente.
+
 Uma pessoa pode acumular mais de um papel quando apropriado, desde que as responsabilidades sejam claras. A aprovação deve ser explícita, atribuível e compatível com a autoridade da pessoa designada.
 
 ## 4. Classes de decisão
@@ -177,20 +197,22 @@ Se o responsável, o escopo ou a autorização não estiverem claros, o agente d
 
 Para decisões materiais ou de alto impacto, o registro deve conter, de acordo com a relevância do caso:
 
-1. **Contexto:** problema, motivação e objetivo esperado.
-2. **Requisitos e restrições:** condições obrigatórias, limites, dependências e informações desconhecidas.
-3. **Alternativas:** opções consideradas, incluindo a opção de não agir quando relevante.
-4. **Recomendação:** alternativa preferida e justificativa.
-5. **Trade-offs:** benefícios, custos, riscos, consequências de manutenção e efeitos operacionais.
-6. **Responsabilidades:** responsável pela decisão, proponente, revisores e partes consultadas.
-7. **Classificação:** classe de decisão e justificativa quando não for evidente.
-8. **Autorização:** escopo aprovado, limites, condições e restrições de execução.
-9. **Validação:** critérios de aceitação, testes e evidências necessários.
+1. **Problema ou oportunidade:** contexto, motivação e objetivo esperado.
+2. **Responsável pela decisão:** pessoa ou função autorizada a decidir e responder pelo resultado.
+3. **Agente proponente:** pessoa ou agente que apresenta a recomendação e a fundamentação.
+4. **Agentes consultados:** especialistas e partes envolvidas, incluindo Estrategista, CTO, Marketing, Jurídico e Contábil/Financeiro conforme aplicável.
+5. **Evidências e premissas:** fatos verificados, hipóteses, incertezas e fontes relevantes.
+6. **Alternativas consideradas:** opções avaliadas, incluindo a opção de não agir quando pertinente.
+7. **Riscos e impactos:** benefícios, custos, riscos, efeitos operacionais, financeiros e de segurança.
+8. **Aprovação necessária:** escopo da autorização exigida, quem deve aprovar e os limites da decisão.
+9. **Resultado esperado e critérios de validação:** objetivos de negócio, indicadores, testes, evidências e critérios de sucesso.
 10. **Reversão:** plano de retorno ao estado anterior, quando aplicável.
 11. **Estado:** proposta, aprovada, rejeitada, em execução, validada ou substituída.
 12. **Reavaliação:** condições que exigem revisão da decisão.
 
-O registro deve ser proporcional ao impacto. Decisões rotineiras não precisam de um ADR completo, salvo quando houver exigência específica do projeto.
+Toda decisão relevante deve identificar os itens acima conforme a materialidade do caso. O registro deve ser proporcional ao impacto. Decisões rotineiras não precisam de um ADR completo, salvo quando houver exigência específica do projeto.
+
+Além disso, a geração de uma recomendação, o silêncio, a ausência de objeção, a concordância de outro agente e a aprovação de um agente não substituem a aprovação humana exigida pela política. A decisão final continua sendo do responsável humano designado, conforme a autoridade do caso.
 
 ## 7. Aprovação, execução e validação
 
